@@ -9998,7 +9998,7 @@ body {
   font-family: "acalog-icons";
   font-style: normal;
   font-weight: normal;
-  src: url("http://acalog-clients.s3.amazonaws.com/global/fonts/acalog-icons.ttf") format("truetype"); }
+  src: url("https://acalog-clients.s3.amazonaws.com/global/fonts/acalog-icons.ttf") format("truetype"); }
 
 .acalog-content .acalog-catalog-name {
   font-family: Arial, Verdana, Helvetica, sans-serif;
