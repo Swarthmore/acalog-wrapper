@@ -4,7 +4,11 @@
   .site-header__main-nav button {
       display:none;
   }
+  .flyout.modal__open {
+    display: none;
+  }
 }
+
 .breadcrumb__list {
   margin: 0;
 }
