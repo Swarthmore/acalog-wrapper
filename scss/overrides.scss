@@ -1,0 +1,60 @@
+//This SCSS is appended to the Swarthmore toolkit styles
+
+@media only screen and (min-width: 60.625em){
+  .site-header__main-nav button {
+      display:none;
+  }
+}
+.breadcrumb__list {
+  margin: 0;
+}
+.accessibly-hidden-text {
+  @extend .sr-only;
+}
+
+#global-search-fieldset {
+  margin-bottom: 4rem;
+  br {
+    display: none;
+  }
+  legend, .no_display, input[type="submit"]{
+    @extend .sr-only;
+  }
+  .n2_search_header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-top: .3rem solid $red;
+    border-bottom: .1rem solid #f2f2f2;
+    padding: 1.4rem 2rem 1.3rem 0;
+    margin-bottom: 0;
+    display: block;
+  }
+  select, input {
+    margin: 0 0 1rem 0;
+  }
+  input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    float: left;
+    margin: 0 5px 0 0;
+  }
+  .block_n2_search span {
+    margin: 3px 0px;
+    display: block;
+    clear: both;
+  }
+  #keyword-submit-icon {
+    margin: -44px -10px 0 0 !important;
+    float: right;
+    span.search-icon {
+      svg {
+        height: 24px;
+      }
+    }
+    span.acalog-icons-hidden {
+      font-size: 0;
+      position: relative;
+      left: -10000px;
+    }
+  }
+}
